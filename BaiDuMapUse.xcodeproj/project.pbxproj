@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1805544F2044F038009048ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805544E2044F038009048ED /* AppDelegate.m */; };
+		180554522044F038009048ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180554512044F038009048ED /* ViewController.m */; };
+		180554552044F038009048ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180554532044F038009048ED /* Main.storyboard */; };
+		180554572044F038009048ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180554562044F038009048ED /* Assets.xcassets */; };
+		1805545A2044F038009048ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180554582044F038009048ED /* LaunchScreen.storyboard */; };
+		1805545D2044F038009048ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805545C2044F038009048ED /* main.m */; };
+		FA2EF6085C0EF7BDDE0399F6 /* libPods-BaiDuMapUse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9A15D7E28C5C0F91CBCCF9 /* libPods-BaiDuMapUse.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1805544A2044F038009048ED /* BaiDuMapUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiDuMapUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1805544D2044F038009048ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1805544E2044F038009048ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180554502044F038009048ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		180554512044F038009048ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		180554542044F038009048ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180554562044F038009048ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180554592044F038009048ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1805545B2044F038009048ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1805545C2044F038009048ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E9A15D7E28C5C0F91CBCCF9 /* libPods-BaiDuMapUse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiDuMapUse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		303CFF493AC76F9C9430342D /* Pods-BaiDuMapUse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiDuMapUse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiDuMapUse/Pods-BaiDuMapUse.debug.xcconfig"; sourceTree = "<group>"; };
+		82D7020E0269CDB66AFE5881 /* Pods-BaiDuMapUse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiDuMapUse.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiDuMapUse/Pods-BaiDuMapUse.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180554472044F038009048ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2EF6085C0EF7BDDE0399F6 /* libPods-BaiDuMapUse.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180554412044F038009048ED = {
+			isa = PBXGroup;
+			children = (
+				1805544C2044F038009048ED /* BaiDuMapUse */,
+				1805544B2044F038009048ED /* Products */,
+				5CF9DD01DBDD7CD9D1E555CC /* Pods */,
+				D3E65C5AFCFEEDB6FA17632C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1805544B2044F038009048ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1805544A2044F038009048ED /* BaiDuMapUse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1805544C2044F038009048ED /* BaiDuMapUse */ = {
+			isa = PBXGroup;
+			children = (
+				1805544D2044F038009048ED /* AppDelegate.h */,
+				1805544E2044F038009048ED /* AppDelegate.m */,
+				180554502044F038009048ED /* ViewController.h */,
+				180554512044F038009048ED /* ViewController.m */,
+				180554532044F038009048ED /* Main.storyboard */,
+				180554562044F038009048ED /* Assets.xcassets */,
+				180554582044F038009048ED /* LaunchScreen.storyboard */,
+				1805545B2044F038009048ED /* Info.plist */,
+				1805545C2044F038009048ED /* main.m */,
+			);
+			path = BaiDuMapUse;
+			sourceTree = "<group>";
+		};
+		5CF9DD01DBDD7CD9D1E555CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				303CFF493AC76F9C9430342D /* Pods-BaiDuMapUse.debug.xcconfig */,
+				82D7020E0269CDB66AFE5881 /* Pods-BaiDuMapUse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3E65C5AFCFEEDB6FA17632C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E9A15D7E28C5C0F91CBCCF9 /* libPods-BaiDuMapUse.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180554492044F038009048ED /* BaiDuMapUse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180554602044F038009048ED /* Build configuration list for PBXNativeTarget "BaiDuMapUse" */;
+			buildPhases = (
+				DA3671F85C5A6FEE43A2EB8D /* [CP] Check Pods Manifest.lock */,
+				180554462044F038009048ED /* Sources */,
+				180554472044F038009048ED /* Frameworks */,
+				180554482044F038009048ED /* Resources */,
+				B556EA29E1D3E443F39C6781 /* [CP] Embed Pods Frameworks */,
+				4C8A9DB409835042D3BAACC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiDuMapUse;
+			productName = BaiDuMapUse;
+			productReference = 1805544A2044F038009048ED /* BaiDuMapUse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180554422044F038009048ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zj;
+				TargetAttributes = {
+					180554492044F038009048ED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 180554452044F038009048ED /* Build configuration list for PBXProject "BaiDuMapUse" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180554412044F038009048ED;
+			productRefGroup = 1805544B2044F038009048ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180554492044F038009048ED /* BaiDuMapUse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180554482044F038009048ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1805545A2044F038009048ED /* LaunchScreen.storyboard in Resources */,
+				180554572044F038009048ED /* Assets.xcassets in Resources */,
+				180554552044F038009048ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C8A9DB409835042D3BAACC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BaiDuMapUse/Pods-BaiDuMapUse-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiDuMapUse/Pods-BaiDuMapUse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B556EA29E1D3E443F39C6781 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiDuMapUse/Pods-BaiDuMapUse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA3671F85C5A6FEE43A2EB8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaiDuMapUse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180554462044F038009048ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180554522044F038009048ED /* ViewController.m in Sources */,
+				1805545D2044F038009048ED /* main.m in Sources */,
+				1805544F2044F038009048ED /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		180554532044F038009048ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180554542044F038009048ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180554582044F038009048ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180554592044F038009048ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1805545E2044F038009048ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1805545F2044F038009048ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180554612044F038009048ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303CFF493AC76F9C9430342D /* Pods-BaiDuMapUse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6CPZ6N7XL;
+				INFOPLIST_FILE = BaiDuMapUse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bc.sjO2O;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180554622044F038009048ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D7020E0269CDB66AFE5881 /* Pods-BaiDuMapUse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6CPZ6N7XL;
+				INFOPLIST_FILE = BaiDuMapUse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bc.sjO2O;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180554452044F038009048ED /* Build configuration list for PBXProject "BaiDuMapUse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1805545E2044F038009048ED /* Debug */,
+				1805545F2044F038009048ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180554602044F038009048ED /* Build configuration list for PBXNativeTarget "BaiDuMapUse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180554612044F038009048ED /* Debug */,
+				180554622044F038009048ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180554422044F038009048ED /* Project object */;
+}
